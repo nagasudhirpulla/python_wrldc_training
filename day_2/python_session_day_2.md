@@ -38,3 +38,10 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 ### type of variable
 * use 'type' function to get the type of variable
 * check the type of variable using 'isinstance' function
+
+### dictionaries in python
+* TODO write topics
+
+### installing modules using pip install command
+
+### reading command line inputs using 'argparse' module
