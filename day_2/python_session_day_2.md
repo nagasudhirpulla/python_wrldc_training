@@ -34,3 +34,7 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 
 ### using jupyter cells in python for easy debugging
 * use ```# %%``` to create a jupyter cell in python code
+
+### type of variable
+* use 'type' function to get the type of variable
+* check the type of variable using 'isinstance' function
