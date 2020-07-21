@@ -31,3 +31,6 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 * slicing the list
 * clone the list using copy module
 * reverse a list using 'reverse' function
+
+### using jupyter cells in python for easy debugging
+* use ```# %%``` to create a jupyter cell in python code
