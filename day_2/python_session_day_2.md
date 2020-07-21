@@ -3,6 +3,8 @@
 ### pushing code to remote git repositories like GitHub
 * Create an account in sites like GitHub, Bitbucket
 * Create a repository in your account
+* In the folder right click and select 'Git bash here' to open git command prompt
+* add remote repo url to local git using the command ```git remote add origin <your_repo_url>```
 * Pull remote code to local git folder using the command ```git pull origin master```
 For unrelated histories issue use command ```git pull origin master --allow-unrelated-histories```
 * Push code to remote repository using the command ```git push origin master```
