@@ -1,5 +1,6 @@
 '''
 Lesson 6 - Day 2 - Pandas DataFrame
+* install pandas using the command 'pip install pandas'
 * 'pandas' is a python library/module
 * 'dataframe' is a data-structure provided by pandas.
 It is just like excel sheet
@@ -31,6 +32,7 @@ colNames = df.columns.tolist()
 print('The dataframe columns are {0}'.format(colNames))
 
 # %%
+# get all the items of a specific column name
 # get all the names from the name column
 names = df['name'].values.tolist()
 

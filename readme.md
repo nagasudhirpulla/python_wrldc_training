@@ -67,8 +67,21 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 * check the type of variable using 'isinstance' function
 
 ### dictionaries in python
-* TODO write topics
+* create an example dictionary
+* access all the keys of a dictionary using 'keys' function
+* access all the values of a dictionary using 'values' function
+* get all the values types of dictionary into an array using list comprehension
+* inserting/editing a key-value pair in a dictionary
+* accessing dictionary values
 
 ### installing modules using pip install command
 
-### reading command line inputs using 'argparse' module
+### read command line inputs using the 'argparse' module
+
+### 'Pandas' DataFrame
+* Intro and terminologies in a pandas dataframe
+* create a dataframe from list of lists
+* read dataframe from a csv file using 'read_csv' function
+* get all the column names of the dataframe using the 'columns' attribute
+* get all the items of a specific column name
+* filtering the rows of a dataframe based upon its column values
