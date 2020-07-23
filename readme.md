@@ -81,7 +81,11 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 ### 'Pandas' DataFrame
 * Intro and terminologies in a pandas dataframe
 * create a dataframe from list of lists
-* read dataframe from a csv file using 'read_csv' function
+* read dataframe from a csv/excel file using 'read_csv', 'read_excel' function
 * get all the column names of the dataframe using the 'columns' attribute
 * get all the items of a specific column name
 * filtering the rows of a dataframe based upon its column values
+
+## Python session on 23 Jul 2020
+* Pandas dataframe excel/csv loading options sheet_name, skiprows, skipfooter, nrows, usecols
+* Pandas export csv or excel using 'to_csv', 'to_excel' methods

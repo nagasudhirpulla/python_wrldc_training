@@ -27,6 +27,10 @@ df = pd.DataFrame(dataArr,
 df = pd.read_csv('data/personsDb.csv')
 
 # %%
+# read dataframe from a csv file using 'read_csv' function
+df = pd.read_excel('data/personsDb.xlsx')
+
+# %%
 # get all the column names of the dataframe using the 'columns' attribute
 colNames = df.columns.tolist()
 print('The dataframe columns are {0}'.format(colNames))
