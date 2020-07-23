@@ -1,5 +1,5 @@
 '''
-Lesson 4 - Day 3 - get the aggregate values of a pandas dataframe columns
+Lesson 4 - Day 3 - perform aggregation on pandas dataframe
 '''
 # %% 
 import pandas as pd
