@@ -1,6 +1,6 @@
 '''
 Lesson 1 - Day 3 - Pandas DataFrame iloc function 
-loc function is used to access dataframe data by specifying the position of row or column index
+iloc function is used to access dataframe data by specifying the position of row or column index
 '''
 # %%
 import pandas as pd
