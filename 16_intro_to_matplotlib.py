@@ -36,3 +36,10 @@ ax.legend(loc='best')
 plt.show()
 
 # %%
+# save the figure as png
+fig.savefig('dumps/out.png')
+
+# save the figure as pdf
+fig.savefig('dumps/out.pdf')
+
+# %%
