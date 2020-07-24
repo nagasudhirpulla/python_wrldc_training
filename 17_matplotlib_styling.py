@@ -25,7 +25,7 @@ la, = ax.plot(xData, yData, color='red')
 plt.show()
 
 # %%
-# linestyle to linestyle can be 'solid', 'dashed', 'dashdot', 'dotted', 'None'
+# linestyle can be 'solid', 'dashed', 'dashdot', 'dotted', 'None'
 # changing color of the line
 # create a figure and axis handle using 'plt.subplots' function
 fig, ax = plt.subplots()

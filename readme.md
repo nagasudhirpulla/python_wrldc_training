@@ -18,23 +18,9 @@
 * for statement in python
 * intro to using git
 
-### initialize a git repository in a folder
-* In the folder right click->open git bash here
-* use command 'git init'
-* use command 'git status' to see the status of files
-* use command 'git add .' to add all untracked files and changes for staging to get committed
-* use command git commit -am 'commit comment' to commit the changes of your code to git 
-
 ## Python session on 21 Jul 2020, day 2
 
 ### pushing code to remote git repositories like GitHub
-* Create an account in sites like GitHub, Bitbucket
-* Create a repository in your account
-* In the folder right click and select 'Git bash here' to open git command prompt
-* add remote repo url to local git using the command ```git remote add origin <your_repo_url>```
-* Pull remote code to local git folder using the command ```git pull origin master```
-For unrelated histories issue use command ```git pull origin master --allow-unrelated-histories```
-* Push code to remote repository using the command ```git push origin master```
 
 ### VS Code shortcuts
 * ```Ctrl /``` to comment /uncomment code
@@ -77,8 +63,9 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 ### installing modules using pip install command
 
 ### read command line inputs using the 'argparse' module
+* get all desired command line inputs into an object
 
-### 'Pandas' DataFrame
+### 'Pandas' DataFrame Introduction
 * Intro and terminologies in a pandas dataframe
 * create a dataframe from list of lists
 * read dataframe from a csv/excel file using 'read_csv', 'read_excel' function
@@ -86,6 +73,76 @@ For unrelated histories issue use command ```git pull origin master --allow-unre
 * get all the items of a specific column name
 * filtering the rows of a dataframe based upon its column values
 
-## Python session on 23 Jul 2020
+## Python session on 23 Jul 2020, day 3
+### 'Pandas' DataFrame concepts
 * Pandas dataframe excel/csv loading options sheet_name, skiprows, skipfooter, nrows, usecols
+* get the shape of dataframe in the form (nrows, ncols) using shape attribute
 * Pandas export csv or excel using 'to_csv', 'to_excel' methods
+* using iloc function to access a cell of dataframe by its index adress
+* using iloc function to access a subset of dataframe by its index and column adress ranges
+* pandas loc function to access dataframe data by specifying the row index values or column values
+* make a column as index in a pandas DataFrame
+* calculate average value of a dataframe column using mean() function
+* calculate sum of a dataframe column using sum() function
+* calculate aggregation of dataframe using 'for' loop
+* create a new column in a dataframe
+
+### 'Matplotlib' module for plotting
+* Basic line plot
+* set title for the plot
+* set label to x and y axes
+* enable legends for the plot
+* control the location of legends in the plot
+* save the figure as png/pdf/jpg using savefig function
+* changing color of the line plot
+* changing linestyle can be 'solid', 'dashed', 'dashdot', 'dotted', 'None'
+* plot markers in the plot
+* control plot markers style and size
+
+### Multiple plots in one figure
+* Multiple lines in one plot using ax.plot function
+* use subplots function to create multiple plots in one figure
+* iterate through each axis through reshape
+* set the figure title
+
+### sizing the plots
+* using figsize option in subplots function to control size in inches
+
+### centering of matplotlib axes so that 0,0 point is in the middle of the figure
+* hiding/changing the color of spines
+* setting the position of spines
+
+## Python session on 24 Jul 2020, day 3
+### functions
+
+### functions and variables in diffrerent files and folders for implementing Separation of Concerns paradigm
+
+### using glob module for iterating files of a folder
+* iterate through all the files of a folder
+* iterate through all the files of a desired file extension in a folder
+
+### read and write text files
+* using read mode, write mode, append mode while reading and writing files
+
+### datetime module in python
+* get the current time
+* create a desired datetime object using dt.datetime function
+* using strftime to print datetime in a desired format like %d-%m-%Y %H:%M:%S
+* using strptime to derive datetime object from string
+* convert string type pandas dataframe column to datetime column
+* access the components of a datetime object
+
+### timedeltas in datetime module
+* create a desired time interval using dt.timedelta function
+* get the difference between 2 datetimes
+* access the components of a timedelta object
+* get the total seconds in the time span using total_seconds function
+* add time period to existing time period
+
+### using pyinstaller to deploy a python script as an executable
+
+### using smtplib module to send mail from posoco mail id
+
+### using psycopg2 module to interface with a postgreSQL database
+
+

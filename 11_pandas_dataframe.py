@@ -23,11 +23,11 @@ df = pd.DataFrame(dataArr,
                   index=[114,546,987])
 
 # %%
-# read dataframe from a csv file using 'read_csv' function
+# read dataframe from csv file using 'read_csv' function
 df = pd.read_csv('data/personsDb.csv')
 
 # %%
-# read dataframe from a csv file using 'read_csv' function
+# read dataframe from xlsx file using 'read_excel' function
 df = pd.read_excel('data/personsDb.xlsx')
 
 # %%

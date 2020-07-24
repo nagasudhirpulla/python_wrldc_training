@@ -41,6 +41,6 @@ df['Total'] = sumVals
 
 # %%
 # implementing the above task in one line
-df['Total1'] = df[df.columns.tolist()[2:-3]].sum(axis=1)
+df['Total1'] = df[df.columns.tolist()[2:-2]].sum(axis=1)
 
 # %%
