@@ -1,3 +1,5 @@
+This code base is created with a goal of creating a knowledge base and uniform coding practices/habits among the developers therby aiding easier learning and collaboration
+
 ## Python session on 20 Jul 2020
 
 ### Software installed
