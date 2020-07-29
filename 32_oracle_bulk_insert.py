@@ -34,7 +34,7 @@ try:
         # also avoid end index overflow by comparing with data array length
         batchEndItr = min(len(dataInsertionTuples)-1, batchStartItr+rowBatchSize-1)
 
-        dataTextInSql = ','.join(['({0},{1},{2},{3},{4})'.format(dataTup[0], dataTup[1], dataTup[2],
+        dataTextInSql = ','.join(['(\'{0}\',\'{1}\',{2},\'{3}\',{4})'.format(dataTup[0], dataTup[1], dataTup[2],
                                                                 dataTup[3], dataTup[4]) for dataTup in dataInsertionTuples[batchStartItr: batchEndItr+1]])
 
         # create sql for insertion
