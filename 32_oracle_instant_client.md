@@ -14,5 +14,10 @@ Oracle Instant client is required for interfacing with Oracle database
 
 If we get an error in python something like "32 bit instant client not found", then remove the 64 bit files and folders and install a 32 bit version of instant client
 
+We also need cx_Oracle module to interface with Oracle in python - https://oracle.github.io/python-cx_Oracle/
+```
+pip install cx_Oracle
+```
+
 ### Links
 * Official docs - https://docs.oracle.com/en/database/oracle/r-enterprise/1.5.1/oread/installing-oracle-database-instant-client.html#GUID-A61C2824-B9C7-4344-A7A2-E7FE0F05695D
