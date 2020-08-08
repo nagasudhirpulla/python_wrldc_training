@@ -25,6 +25,13 @@ print('The keys of dictionary are ...')
 print(xKeys)
 
 # %%
+# check if key is present in a dictionary using in operator
+if 'age' in xDict:
+    print('age key is present in the dictionary')
+
+print('Is location key present in xDict? - {0}'.format('location' in xDict))
+
+# %%
 # access all the values of a dictionary using 'values' function
 xVals = list(xDict.values())
 print('The values of dictionary are ...')
@@ -42,8 +49,8 @@ xDict['location'] = 'Mumbai'
 # %%
 # accessing dictionary values
 outputStatement = 'The person name is {0} {1}.\nHe lives at {2}, his hobbies are {3}.\nHe knows {4}'\
-.format(xDict['firstName'], xDict['lastname'], xDict['location'],
-        ', '.join(xDict['hobbies']), ', '.join(xDict['metaData']['languages']))
+    .format(xDict['firstName'], xDict['lastname'], xDict['location'],
+            ', '.join(xDict['hobbies']), ', '.join(xDict['metaData']['languages']))
 print(outputStatement)
 
 
