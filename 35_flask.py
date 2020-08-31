@@ -12,7 +12,7 @@ app = Flask(__name__)
 def index():
     return 'Hello, World!'
 
-# just return hello.html when the route '/hello' is 
+# just return hello.html.j2 when the route '/hello' is called
 # flask looks for html files in templates folder
 @app.route('/hello')
 def hello():
@@ -25,7 +25,18 @@ def hello():
 def greet(nameStr):
     return render_template('hello.html.j2', data={'name': nameStr})
 
+# just return home.html.j2 when the route '/home' is called
+# this page uses template inheritence to extend a base tempplate
+# refer 'home.html.j2' file
+@app.route('/home')
+def home():
+    return render_template('home.html.j2', user={'name': 'Nagasudhir'})
+
+@app.route('/anonymous')
+def anonymous():
+    return render_template('home.html.j2')
+
 # __name__ will be __main__ only if this file is the entry point
 if __name__ == '__main__':
     # run the server on this ip and port 50100
-    app.run(host='0.0.0.0',port=50100, debug=True)
+    app.run(host='0.0.0.0', port=50100, debug=True)
