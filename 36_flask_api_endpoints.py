@@ -23,7 +23,7 @@ def helloJson():
 # render 'home.html'
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('hello.html.j2')
 
 # extract data from URL segments
 @app.route('/sum/<int:x>/<int:y>')
