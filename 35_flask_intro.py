@@ -1,5 +1,7 @@
 '''
 using flask module to create a web server
+using layouts to reusing html in mulitple pages
+using partials to split html among multiple files
 pip install flask
 https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application
 '''
