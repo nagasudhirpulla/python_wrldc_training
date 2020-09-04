@@ -20,7 +20,7 @@ def hello():
 def helloJson():
     return {'message': 'Hello World!!!'}
 
-# render 'home.html'
+# render 'hello.html.j2'
 @app.route('/')
 def home():
     return render_template('hello.html.j2')
