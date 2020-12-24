@@ -1,5 +1,5 @@
 '''
-Lesson 3 - Day 3 - make a column as index in a pandas DataFrame 
+make a column as index in a pandas DataFrame 
 '''
 
 # %% 

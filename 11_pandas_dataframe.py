@@ -1,5 +1,5 @@
 '''
-Lesson 6 - Day 2 - Pandas DataFrame
+Pandas DataFrame
 * install pandas using the command 'pip install pandas'
 * 'pandas' is a python library/module
 * 'dataframe' is a data-structure provided by pandas.

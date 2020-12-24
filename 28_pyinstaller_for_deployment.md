@@ -1,4 +1,4 @@
-## Lesson 5 - Day 4 - using pyinstaller to deploy a python script as an executable
+## Using pyinstaller to deploy a python script as an executable
 
 get pytinstaller module by using the command
 ```

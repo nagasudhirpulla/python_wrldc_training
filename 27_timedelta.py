@@ -1,5 +1,5 @@
 '''
-Lesson 4 - Day 4 - timedeltas in datetime module
+timedeltas in datetime module
 '''
 # %%
 import datetime as dt

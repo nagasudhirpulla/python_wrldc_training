@@ -1,4 +1,4 @@
-# Session 37 - Creating a service with RESTful API endpoints
+# Creating a service with RESTful API endpoints
 Date - 03-Sep-2020
 
 ## HTTP verbs/methods to implement a REST (Representational State Transfer) complying service

@@ -1,5 +1,5 @@
 '''
-Lesson 5 - 'for' statement in python and using it with 'range' function
+'for' statement in python and using it with 'range' function
 '''
 
 # looping for 10 times

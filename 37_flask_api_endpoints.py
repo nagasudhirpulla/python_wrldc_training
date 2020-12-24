@@ -1,5 +1,5 @@
 '''
-Session 36 - Flask API end points
+Flask API end points
 Date - 03-Sep-2020
 '''
 

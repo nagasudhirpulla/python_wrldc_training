@@ -1,5 +1,5 @@
 '''
-Lesson 1 - Day 3 - Pandas DataFrame iloc function 
+Pandas DataFrame iloc function 
 iloc function is used to access dataframe data by specifying the position of row or column index
 '''
 # %%

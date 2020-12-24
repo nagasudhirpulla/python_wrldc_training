@@ -1,5 +1,5 @@
 '''
-Lesson 1 - Day 4 - iterate thorough all files of a folder using glob module
+iterate thorough all files of a folder using glob module
 '''
 # %%
 import glob

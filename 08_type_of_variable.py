@@ -1,5 +1,4 @@
 '''
-Day 2 - Lesson 3
 Type of varibles in python
 '''
 # %%

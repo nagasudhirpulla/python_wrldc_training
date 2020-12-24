@@ -1,5 +1,5 @@
 '''
-Lesson 9 - Day 3 - centering of matplotlib axes so that 0,0 point is in the middle of the figure
+centering of matplotlib axes so that 0,0 point is in the middle of the figure
 '''
 # %%
 import matplotlib.pyplot as plt

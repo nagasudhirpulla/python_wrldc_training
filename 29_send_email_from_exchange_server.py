@@ -1,5 +1,5 @@
 '''
-Lesson 6 - Day 4 - using smtplib module to send mail from posoco mail id
+using smtplib module to send mail from posoco mail id
 '''
 import smtplib
 from email.mime.text import MIMEText

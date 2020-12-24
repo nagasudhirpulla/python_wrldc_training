@@ -1,5 +1,4 @@
 '''
-Lesson 4
 while statement in python
 '''
 x = 5

@@ -1,5 +1,5 @@
 '''
-Lesson 2 - Day 3 - Pandas DataFrame loc function 
+Pandas DataFrame loc function 
 loc function is used to access dataframe data by specifying the row index values or column values
 '''
 #%%

@@ -1,5 +1,5 @@
 '''
-Lesson 6 - Day 3 - styling matplotlib plot
+styling matplotlib plot
 '''
 #%%
 import matplotlib.pyplot as plt

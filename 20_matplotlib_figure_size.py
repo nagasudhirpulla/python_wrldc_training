@@ -1,5 +1,5 @@
 '''
-Lesson 8 - Day 3 - sizing of matplotlib plots
+sizing of matplotlib plots
 '''
 #%%
 import matplotlib.pyplot as plt

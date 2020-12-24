@@ -1,4 +1,4 @@
-# Lesson - formatting strings with variable substitution
+# formatting strings with variable substitution
 name = 'Sudhir'
 
 num = 150

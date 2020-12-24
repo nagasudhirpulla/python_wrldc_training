@@ -1,5 +1,5 @@
 '''
-Lesson 2 - Day 4 - read or write text files in python
+read or write text files in python
 '''
 
 # %%

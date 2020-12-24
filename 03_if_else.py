@@ -1,5 +1,4 @@
 '''
-Lesson 3
 Using if, elif, else in python
 '''
 

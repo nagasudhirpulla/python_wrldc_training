@@ -1,5 +1,5 @@
 '''
-Lesson 5 - Day 3 - intro to matplotlib library in python for plotting
+intro to matplotlib library in python for plotting
 pip install matplotlib
 '''
 # %%

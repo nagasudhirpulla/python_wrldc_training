@@ -1,5 +1,5 @@
 '''
-Lesson 3 - Day 4 - datetime module in python
+datetime module in python
 '''
 #%%
 import datetime as dt

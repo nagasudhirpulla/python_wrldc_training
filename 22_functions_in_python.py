@@ -1,5 +1,5 @@
 '''
-Lesson 9 - Day 3 - functions in python
+functions in python
 '''
 # %%
 def sayHello(nameInp):

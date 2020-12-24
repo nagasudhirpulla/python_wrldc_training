@@ -1,5 +1,5 @@
 '''
-Lesson 4 - Day 3 - perform aggregation on pandas dataframe
+perform aggregation on pandas dataframe
 '''
 # %% 
 import pandas as pd

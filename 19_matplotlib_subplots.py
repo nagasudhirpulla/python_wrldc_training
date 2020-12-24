@@ -1,5 +1,5 @@
 '''
-Lesson 7 - Day 3 - matplotlib multiple plots in a figure using subplots
+matplotlib multiple plots in a figure using subplots
 '''
 # %%
 import matplotlib.pyplot as plt

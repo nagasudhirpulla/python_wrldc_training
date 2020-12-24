@@ -1,7 +1,5 @@
 This code base is created with a goal of creating a knowledge base and uniform coding practices/habits among the developers therby aiding easier learning and collaboration
 
-## Python session on 20 Jul 2020
-
 ### Software installed
 * python - for running python
 * Visual Studio Code / VS Code - code editor for python code
@@ -19,8 +17,6 @@ This code base is created with a goal of creating a knowledge base and uniform c
 * while statement in python
 * for statement in python
 * intro to using git
-
-## Python session on 21 Jul 2020, day 2
 
 ### pushing code to remote git repositories like GitHub
 
@@ -75,7 +71,6 @@ This code base is created with a goal of creating a knowledge base and uniform c
 * get all the items of a specific column name
 * filtering the rows of a dataframe based upon its column values
 
-## Python session on 23 Jul 2020, day 3
 ### 'Pandas' DataFrame concepts
 * Pandas dataframe excel/csv loading options sheet_name, skiprows, skipfooter, nrows, usecols
 * get the shape of dataframe in the form (nrows, ncols) using shape attribute
